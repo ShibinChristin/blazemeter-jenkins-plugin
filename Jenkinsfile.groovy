@@ -1,4 +1,4 @@
-node('master') {
+node('built-in') {
   stage ('BlazeMeter test'){
     blazeMeterTest(
       jobApiKey:'123fjghn68t63dv',
